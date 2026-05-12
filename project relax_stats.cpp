@@ -56,7 +56,7 @@ void output() {      // make sure the values are between 0 and 100
 
 class Relax:public Activity {   //inherit from activity
     public:
-    void perform(stats &s) override {  //
+    void perform(stats &s) override {  //use apply rather than perform
        cout<<"Action: Relaxing"<<endl; // message
         s.mood+=10;
         s.energy+=10;
