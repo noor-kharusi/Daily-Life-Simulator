@@ -13,19 +13,19 @@ void output() {      // make sure the values are between 0 and 100
        if (energy>100) {
            energy=100;
        }
-        if (energy<0) {
+        else if (energy<0) {
             energy=0;
         }
         if (mood>100) {
             mood=100;
         }
-        if (mood<0) {
+        else if (mood<0) {
             mood=0;
         }
         if (productivity>100) {
             productivity=100;
         }
-        if (productivity<0) {
+        else if (productivity<0) {
             productivity=0;
         }
 
